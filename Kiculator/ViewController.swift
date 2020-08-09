@@ -33,6 +33,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        print("viewdidloaded loaded")
+        
         setNotificationCenter()
         
         setSavedItemButton()
